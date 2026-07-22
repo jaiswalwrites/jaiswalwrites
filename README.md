@@ -21,19 +21,41 @@ I build production-grade AI agents, advanced RAG architectures, and autonomous M
 
 ---
 
-## 🤖 The AI Agent Showcase (JaiswalBuilds Lab)
-I have built and open-sourced **10 agentic systems** illustrating complex orchestration paradigms. Explore the repositories inside the **[@jaiswalbuilds](https://github.com/jaiswalbuilds)** organization:
+---
 
-*   🤖 **[FinOps Optimizer Agent](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/01_finops_cost_optimizer):** Anomaly detection with Z-Score analysis and ReAct reasoning loop.
-*   🛡️ **[Threat Intel Agent](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/02_cybersec_threat_intel):** Incident correlation engine mapping IOCs to MITRE ATT&CK vectors.
-*   🧠 **[Safex Enterprise RAG](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/03_enterprise_rag_assistant):** Advanced multi-source document ingestion using LlamaIndex & ChromaDB.
-*   🎙️ **[Interview Agent](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/04_llm_interview_agent):** Multi-turn adaptive agent with structured JSON scoring evaluator.
-*   🔍 **[AI Deep Research Analyst](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/05_ai_research_analyst):** Recursive internet search synthesis and markdown report generator.
-*   🤝 **[Multi-Agent FinOps Crew](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/06_multi_agent_finops_team):** Sequential workflow team (Analyst ➔ Strategist ➔ Writer) powered by CrewAI.
-*   🔧 **[Autonomous Code Reviewer](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/07_autonomous_code_reviewer):** Static syntax tree analysis (AST) merged with security LLM check.
-*   ♾️ **[MCP Context Router](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/08_mcp_knowledge_agent):** Intelligent context protocol routing query intents to specialized document stores.
-*   📡 **[ML Pipeline Monitor](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/09_pipeline_monitor_agent):** Real-time data drift scorer (z-test) with auto-runbook remediation.
-*   📄 **[Doc Intelligence Agent](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/10_document_intelligence_agent):** Cross-document QA with precise metadata source citations.
+## 🧠 AI Engineering Philosophies
+I build AI systems under a strict set of production principles:
+*   **Orchestration over Model Size:** A fine-tuned ReAct agent using specialized tools beats a raw, zero-shot frontier LLM every time. Focus on context steering and runtime observability.
+*   **Agents are State Machines:** In production, autonomous loops must be bounded. I design agentic loops with deterministic state transitions, fallback paths, and structured JSON schemas to prevent hallucinations and loop lock.
+*   **RAG is a Search Problem, Not a Generation Problem:** 90% of RAG failure modes occur during retrieval. I prioritize hybrid search (lexical + semantic), cross-encoder re-ranking, and metadata pre-filtering before the prompt is ever constructed.
+*   **Inference Costs & Latency Are SLA-Critical:** Deploying AI requires systems-level optimization. I align model parameters, token limits, and prompt templates with strict hardware constraints (e.g., custom accelerator stacks like SambaNova).
+
+---
+
+## 🛠️ Forward-Deployed AI Patterns (The Repositories)
+The codebases in the **[@jaiswalbuilds](https://github.com/jaiswalbuilds)** laboratory demonstrate these architectures in action:
+
+### 🔄 Pattern 1: Stateful ReAct & Tool Use
+*   🤖 **[FinOps Optimizer](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/01_finops_cost_optimizer):** Anomaly detection via Z-Score calculation, feeding into a ReAct agent equipped with cost data tools.
+*   🔍 **[AI Deep Research Analyst](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/05_ai_research_analyst):** Recursive query planning that executes multi-step search loops to build structured syntheses.
+*   🔧 **[Autonomous Code Reviewer](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/07_autonomous_code_reviewer):** Combines static Abstract Syntax Tree (AST) parsing with LLM reasoning for security checks.
+
+### 🛡️ Pattern 2: Enterprise Knowledge & Advanced RAG
+*   🧠 **[Safex Enterprise RAG](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/03_enterprise_rag_assistant):** Metadata-filtered ingestion pipeline using LlamaIndex and ChromaDB, returning exact cited sources.
+*   📄 **[Doc Intelligence Agent](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/10_document_intelligence_agent):** Cross-document QA indexer with parent-child chunk mapping and custom embedding logic.
+*   ♾️ **[MCP Context Router](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/08_mcp_knowledge_agent):** Implements the Model Context Protocol to route query intent to separate document stores dynamically.
+
+### 🤝 Pattern 3: Multi-Agent Consensus & Evaluation
+*   👥 **[Multi-Agent FinOps Crew](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/06_multi_agent_finops_team):** Sequential workflow team (Cost Analyst ➔ Optimization Strategist ➔ Technical Writer) powered by CrewAI.
+*   🎙️ **[Interview Agent](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/04_llm_interview_agent):** Multi-turn candidate simulation coupled with an independent JSON evaluation critic.
+
+---
+
+## 📚 Reference Architectures & Learning Materials
+I maintain educational resources and templates to accelerate production AI development:
+*   📘 **[The Enterprise RAG Blueprint:](https://jaiswalbuilds.github.io)** A system design guide on indexing pipelines, hybrid query routing, and re-ranking models.
+*   📙 **[Agentic Evaluation Suite:](https://jaiswalbuilds.github.io)** Jupyter notebooks showing how to build LLM-as-a-Judge pipelines with structured JSON schemas.
+*   📓 **[MLOps Guardrails Template:](https://jaiswalbuilds.github.io)** Reference implementation for tracking data drift (KS-test / Z-score) and latency SLAs in production.
 
 ---
 
