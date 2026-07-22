@@ -33,21 +33,30 @@ I build AI systems under a strict set of production principles:
 ---
 
 ## 🛠️ Forward-Deployed AI Patterns (The Repositories)
-The codebases in the **[@jaiswalbuilds](https://github.com/jaiswalbuilds)** laboratory demonstrate these architectures in action:
+Explore the standalone codebases demonstrating these production architectures directly on my profile:
 
-### 🔄 Pattern 1: Stateful ReAct & Tool Use
-*   🤖 **[FinOps Optimizer](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/01_finops_cost_optimizer):** Anomaly detection via Z-Score calculation, feeding into a ReAct agent equipped with cost data tools.
-*   🔍 **[AI Deep Research Analyst](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/05_ai_research_analyst):** Recursive query planning that executes multi-step search loops to build structured syntheses.
-*   🔧 **[Autonomous Code Reviewer](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/07_autonomous_code_reviewer):** Combines static Abstract Syntax Tree (AST) parsing with LLM reasoning for security checks.
+### 🔄 Pattern 1: Stateful ReAct & Autonomous Agents
+*   🤖 **[Global Context MCP Router:](https://github.com/jaiswalwrites/Global-Context-MCP-Gateway-Model-COntext-Protocol-Router-)** An intent routing gateway implementing the Model Context Protocol (MCP) to route context dynamically.
+*   🛡️ **[DevSecOps Autonomous Patching:](https://github.com/jaiswalwrites/DevSecOps-Autonomous-Patching-Agent)** An AST-parsing scanner that automatically fixes insecure code patterns (e.g. `eval()`) via AST transformation.
+*   👥 **[Multi-Agent Consensus Loop:](https://github.com/jaiswalwrites/Multi-Agent-Consensus-Loop)** A debate-based consensus critic loop designed to validate LLM outputs using structured Pydantic schema validation.
+*   🔍 **[AI-Powered RAG Directory Sync:](https://github.com/jaiswalwrites/AI-Powered-RAG-Directory-Sync)** Scans, categorizes, and relocates directory documents semantically using document embeddings.
 
 ### 🛡️ Pattern 2: Enterprise Knowledge & Advanced RAG
-*   🧠 **[Safex Enterprise RAG](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/03_enterprise_rag_assistant):** Metadata-filtered ingestion pipeline using LlamaIndex and ChromaDB, returning exact cited sources.
-*   📄 **[Doc Intelligence Agent](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/10_document_intelligence_agent):** Cross-document QA indexer with parent-child chunk mapping and custom embedding logic.
-*   ♾️ **[MCP Context Router](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/08_mcp_knowledge_agent):** Implements the Model Context Protocol to route query intent to separate document stores dynamically.
+*   🧠 **[Semantic Document Ingestion:](https://github.com/jaiswalwrites/Semantic-Document-Ingestion-Pipeline)** Ingestion and recursive chunking pipeline populating a local SQLite vector store database.
+*   ♾️ **[Dynamic RAG Sync Engine:](https://github.com/jaiswalwrites/Dynamic-RAG-Sync-Engine)** Background file watcher sync daemon that updates, deletes, and updates vector indices automatically.
+*   ⚡ **[Semantic Cache API Gateway:](https://github.com/jaiswalwrites/Semantic-Cache-API-Gateway)** cosine-similarity vector cache proxy gateway reducing API token overhead by up to 40%.
 
-### 🤝 Pattern 3: Multi-Agent Consensus & Evaluation
-*   👥 **[Multi-Agent FinOps Crew](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/06_multi_agent_finops_team):** Sequential workflow team (Cost Analyst ➔ Optimization Strategist ➔ Technical Writer) powered by CrewAI.
-*   🎙️ **[Interview Agent](https://github.com/jaiswalbuilds/jaiswalbuilds.github.io/tree/main/agents/04_llm_interview_agent):** Multi-turn candidate simulation coupled with an independent JSON evaluation critic.
+### 📊 Pattern 3: FDE, Systems & MLOps Infrastructure
+*   💰 **[Automated Cloud Billing Audit:](https://github.com/jaiswalwrites/Automated-Cloud-Billing-Audit-Engine)** CUR cost anomaly detector using rolling Z-Score computations on daily spend vectors.
+*   🔌 **[Universal REST-to-GraphQL Adapter:](https://github.com/jaiswalwrites/Universal-REST-to-GraphQL-Adapter)** Dynamic HTTP translator converting legacy REST API JSON payloads to GraphQL queries.
+*   📡 **[Real-Time Data Drift Pipeline:](https://github.com/jaiswalwrites/Real-Time-Data-Drift-Pipeline)** Data monitoring stream calculating Population Stability Index (PSI) values.
+*   🔒 **[LLM Guardrails PII Gateway:](https://github.com/jaiswalwrites/LLM-Guardrails-PII-Gateway)** Security proxy masking credit cards, names, and phone numbers before API dispatch.
+
+### 🔌 Pattern 4: ML Optimization & Decentralized Systems
+*   ⚡ **[LLM Quantization Edge Inference:](https://github.com/jaiswalwrites/LLM-Quantization-Edge-Inference-Suite)** Compile open-source models into INT4/INT8 formats and ONNX weights to benchmark memory constraints.
+*   🧠 **[Custom Accelerator Prompt Compiler:](https://github.com/jaiswalwrites/Custom-Accelerator-Prompt-Compiler)** Compiles templates into optimized tensor layouts for custom accelerator hardware.
+*   📊 **[Predictive Agentic BI Tool:](https://github.com/jaiswalwrites/Predictive-Agentic-BI-Tool)** Natural language Text-to-SQL compiler with integrated SQLite database outputs.
+*   🤝 **[Decentralized AI Coordinate SDK:](https://github.com/jaiswalwrites/Decentralized-AI-Coordinate-SDK)** Socket-based node synchronization and orchestration SDK for distributed inference node clusters.
 
 ---
 
