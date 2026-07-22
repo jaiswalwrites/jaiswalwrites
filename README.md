@@ -52,8 +52,8 @@ I have built and open-sourced **10 agentic systems** illustrating complex orches
 
 ## 📊 Activity & Git Metrics
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaiswalwrites&show_icons=true&theme=react&hide_border=true&include_all_commits=true" alt="Manish Jaiswal's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaiswalwrites&theme=react&hide_border=true" alt="Manish Jaiswal's Streak Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=jaiswalwrites&show_icons=true&theme=react&hide_border=true&include_all_commits=true" alt="Manish Jaiswal's GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=jaiswalwrites&theme=react&hide_border=true" alt="Manish Jaiswal's Streak Stats" />
 </p>
 
 ---
