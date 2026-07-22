@@ -32,7 +32,7 @@ I build AI systems under a strict set of production principles:
 
 ---
 
-## 🛠️ Forward-Deployed AI Patterns (The Repositories)
+## 📁 Projects
 Explore the standalone codebases demonstrating these production architectures directly on my profile:
 
 ### 🔄 Pattern 1: Stateful ReAct & Autonomous Agents
